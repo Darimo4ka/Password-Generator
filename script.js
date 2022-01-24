@@ -40,7 +40,7 @@ function generatePassword() {
   var possibleCharacters = "";
   var password = "";
 
-// using if stat. populate possible characters array based on users preferences
+// using if statement to populate possible characters
 
   if(criteria.includeLower == true){ 
     possibleCharacters = possibleCharacters + lower;
